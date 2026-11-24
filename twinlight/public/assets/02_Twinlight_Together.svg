@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3C2638"/><stop offset="1" stop-color="#211522"/></linearGradient><linearGradient id="cta" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F7A6B8"/><stop offset="1" stop-color="#F2C58C"/></linearGradient></defs>
+<rect width="1080" height="1350" fill="url(#wash)"/><circle cx="860" cy="360" r="430" fill="#2D1D2C"/>
+<circle cx="825" cy="365" r="260" fill="#382235"/><path d="M825 525 C725 440 605 360 625 260 C644 170 750 174 825 255 C900 174 1006 170 1025 260 C1045 360 925 440 825 525Z" fill="none" stroke="#F7A6B8" stroke-width="11"/><path d="M825 225 V520" stroke="#F2C58C" stroke-width="5" opacity=".9"/><circle cx="690" cy="335" r="8" fill="#F2C58C"/><circle cx="960" cy="335" r="8" fill="#F2C58C"/>
+<g transform="translate(78 78)">
+<path d="M22 0 C8 14 0 23 0 35 C0 51 13 63 28 63 C43 63 56 51 56 35 C56 23 44 11 28 0Z" fill="none" stroke="#F7A6B8" stroke-width="3" transform="scale(.72)"/>
+<text x="58" y="34" fill="#FFF3F1" font-family="Georgia,serif" font-size="30">twinlight</text>
+<text x="0" y="170" fill="#F7A6B8" font-family="Arial,sans-serif" font-size="21" letter-spacing="5" font-weight="700">A LITTLE CLOSER</text>
+<text x="0" y="260" fill="#FFF3F1" font-family="Georgia,serif" font-size="76" font-weight="700">Love across</text>
+<text x="0" y="345" fill="#FFF3F1" font-family="Georgia,serif" font-size="76" font-weight="700">every mile</text>
+<text x="0" y="425" fill="#E9CDD3" font-family="Arial,sans-serif" font-size="27">A co-op lighthouse puzzle for two.</text>
+<text x="0" y="470" fill="#E9CDD3" font-family="Arial,sans-serif" font-size="27">One partner guides; the other finds the light.</text>
+</g>
+<g transform="translate(78 1055)">
+<path d="M0 0 H924" stroke="#70485B" stroke-width="2"/>
+<text x="0" y="68" fill="#F2C58C" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="3">PLAY AS A TEAM</text>
+<rect x="0" y="115" width="280" height="66" rx="33" fill="url(#cta)"/>
+<text x="140" y="157" fill="#321F2D" font-family="Arial,sans-serif" font-size="22" font-weight="700" text-anchor="middle">SHARE A MOMENT</text>
+<text x="924" y="158" fill="#D7B9C4" font-family="Georgia,serif" font-size="20" text-anchor="end" font-style="italic">Two hearts. One shared light.</text>
+</g></svg>
