@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Twinlight</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Newsreader:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<header><img src="assets/logo.svg" alt="" width="28" height="28" onerror="this.remove()"><h1>Twinlight</h1><span id="presence">Partner offline</span></header>
+<main>
+  <nav id="tabs" class="tabs" hidden><button class="tab on" data-tab="game">Puzzle</button><button class="tab" data-tab="games">Games</button><button class="tab" data-tab="timeline">Timeline</button></nav>
+  <!-- EDIT COPY HERE: all visible text lives in the HTML -->
+  <section id="auth">
+    <h2>Two keepers, one lamp.</h2>
+    <p>Sign in to light the lighthouse together.</p>
+    <input id="email" type="email" placeholder="Email" autocomplete="email">
+    <input id="password" type="password" placeholder="Password" autocomplete="current-password">
+    <input id="name" placeholder="Your name (sign up only)">
+    <input id="profession" placeholder="Your profession (sign up only)">
+    <div class="row"><button id="login">Sign in</button><button id="register" class="ghost">Create account</button></div>
+    <p class="err" id="authErr" role="alert"></p>
+  </section>
+
+  <section id="pair" hidden>
+    <h2>Connect with your partner</h2>
+    <div class="row"><button id="makeInvite">Create invite code</button><input id="code" placeholder="Enter partner's code"><button id="join" class="ghost">Join</button></div>
+    <p id="inviteOut"></p>
+  </section>
+
+  <section id="game" hidden>
+    <p id="roleLine" class="role"></p>
+    <div id="grid" class="grid" aria-live="polite"></div>
+    <div id="controls"></div>
+    <p id="status"></p>
+    <button id="startBtn">Start the lighthouse</button>
+  </section>
+
+  <section id="games" hidden>
+    <div id="hub" class="hub">
+      <button class="gcard" data-game="tod"><b>Truth or Dare</b><span>Take turns. Choose sweet or flirty, then answer or act it out on camera.</span></button>
+      <button class="gcard" data-game="sync"><b>Heart Sync</b><span>Pick in secret. Reveal together. Matching answers make you glow.</span></button>
+      <button class="gcard" data-game="notes"><b>Love Notes</b><span>Finish the sentence, sealed until you both write. Saved to your timeline.</span></button>
+    </div>
+    <div id="stage" hidden></div>
+  </section>
+
+  <section id="memory" hidden>
+    <h2 id="prompt"></h2>
+    <textarea id="answer" rows="4" placeholder="Write your answer. Your partner sees it when you both submit."></textarea>
+    <button id="save">Save to our timeline</button>
+  </section>
+
+  <section id="timeline" hidden><h2>Our timeline</h2><ol id="tl"></ol></section>
+</main>
+<script src="app.js" type="module"></script>
+<script src="games.js" type="module"></script>
+</body></html>
