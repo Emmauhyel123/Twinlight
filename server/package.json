@@ -1,2 +1,4 @@
-{ "name":"twinlight-server","type":"module","scripts":{"start":"node server.js"},
-  "dependencies":{"express":"^4.19.2","ws":"^8.18.0","pg":"^8.12.0","jsonwebtoken":"^9.0.2","bcrypt":"^5.1.1"} }
+{ "name": "twinlight", "private": true, "type": "module",
+  "scripts": { "start": "node server/server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "express": "^4.19.2", "ws": "^8.18.0", "pg": "^8.12.0", "jsonwebtoken": "^9.0.2", "bcrypt": "^5.1.1" } }
